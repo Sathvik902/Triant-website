@@ -1,0 +1,101 @@
+.container-fluid{
+  margin-top:10%;
+}
+
+.col-md-3 {
+  display: inline !important;
+  
+}
+.text-uppercase{
+  font-size: 30px;
+  font-weight: 300px;
+}
+
+.footer_links{
+  color:white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.footer_links:hover{
+  color:yellow;
+}
+
+.button{
+  color: black !important;
+  background-color: white !important;
+  max-width: 2000px !important;
+  font-weight: 300px;
+}
+
+.button:hover{
+  background-color: yellow !important;
+}
+
+.footerrow{
+  /* padding-top: 200px !important; */
+  width: 90% !important;
+  display: inline;
+}
+
+.footer{
+  position: relative !important;
+  bottom: 0 !important;
+  left: -1%;
+  /* width: 100px; */
+  
+}
+.footer a{
+  text-decoration: none;
+}
+.color{
+  color: white;
+  background: black;
+}
+
+.btn_custom{
+  color:black;
+  border-radius: 0!important;
+  -webkit-border-radius: 0!important;
+  -moz-border-radius: 0!important;
+  -ms-border-radius: 0!important;
+  -o-border-radius: 0!important;
+  background: white;
+  font-size: 20px!important;
+  font-weight: 700px;
+}
+
+#myname{
+  color:gray;
+}
+#myname:hover{
+  color:orange;
+}
+
+@media screen and (max-width:780px) {
+  #exampleInputEmail1{
+    position: relative;
+    justify-content: center;
+    /* text-align: center; */
+    width:60%;
+    left:20%;
+  }
+
+  .contacting{
+    position: relative;
+    top:-30px;
+  }
+
+  .stay_in_touch{
+    padding-bottom: 50px!important;
+  }
+
+  .text-uppercase{
+    padding-bottom: 2px;
+  }
+
+  #subscribe{
+    padding:0 6px 0 6px;
+  }
+  
+}
