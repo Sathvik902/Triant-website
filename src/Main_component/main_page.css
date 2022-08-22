@@ -9,6 +9,7 @@ body ::selection{
 
 .rows123{
   display: grid !important ;
+  grid-row: inline;
   /* width:700% !important; */
   /* height:30px; */
   /* height:30% !important; */

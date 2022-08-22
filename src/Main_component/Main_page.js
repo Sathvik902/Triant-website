@@ -30,14 +30,14 @@ function main_page() {
         <img src={bgImg} alt='bg-img' className='bgImg'/>
         <div className=' container1 shadow-lg p-3 mb-5 bg-white rounded'> 
             <div className='row '>
-                <div className='col-md-6 rows123 cursorpointer'>
+                <div className='col rows123 cursorpointer'>
                 <a href='../detail/window'><img src={window} className='div_imgs' alt='window'/></a>
                 <a href='../detail/window'><h1 id='main_h1'>WINDOWS</h1></a>
                     <p>
                     Casement Windows, Sliding Windows, Awning Windows, Tilt-n-Turn Windows, Fixed Windows.
                     </p>
                 </div>
-                <div className='col-md-6 rows123 cursorpointer'>
+                <div className='col rows123 cursorpointer'>
                 <a href='../detail/door'><img src={door} alt='doors' className='div_imgs'/></a>
                 <a href='../detail/door'> <h1 id='main_h1'>DOORS</h1></a>
                     <p>
@@ -46,14 +46,14 @@ function main_page() {
                 </div>
             </div>
             <div className='row'>
-                <div className='col-md-6 rows123 cursorpointer'>
+                <div className='col rows123 cursorpointer'>
                 <a href='/'> <img src={curtain} alt='curtain_walls'className='div_imgs'/></a>
                 <h1 id='main_h1'>CURTAIN WALLS</h1>
                 <p>
                 Stick Curtain Walls, Semi-unitized Curtain Walls, Unitized Curtain Walls
                 </p>
                 </div>
-                <div className='col-md-6 rows123 cursorpointer'>
+                <div className='col rows123 cursorpointer'>
                 <a href='../detail/maingate'><img src={gates} alt='gates'className='div_imgs'/></a>
                 <a href='../detail/maingate'><h1 id='main_h1'>GATES</h1></a>
                 <p>
