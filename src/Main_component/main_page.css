@@ -879,11 +879,11 @@ margin-right: 20px;
   top: -260px;
 }
 
-.contents_row{
-  width: 99%;
+/* .contents_row{
+  width: 100%;
   position: relative;
   left: 10px;
-}
+} */
 
 
 .main_name{
