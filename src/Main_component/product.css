@@ -7,13 +7,13 @@
     left: 20%;
 }
 
-.col-6{
+.col{
     width:50% !important;
 }
 
 .div_imgs{
-    width:20%;
-    height: 60%;
+    /* width:20%; */
+    height: 30%;
     padding-top:30px;
     /* cursor: pointer; */
 }
@@ -22,12 +22,24 @@
 
 
 #products_h1{
-    font-size: 180%;
+    font-size: 2rem;
     font-weight: 650;
+    position: relative;
+    display: grid !important;
+    /* left: -6%;
+    top: 10%; */
+
     /* cursor: pointer; */
 }
+/* #products_h11{
+    font-size: 1.68rem;
+    font-weight: 650;
+    position: relative;
 
-.col-6 p{
+    /* cursor: pointer; */
+/* } */ 
+
+.col p{
     display: flex;
     flex-direction: row;
     font-weight: 100 !important;
@@ -47,7 +59,7 @@
         left: 6%;
     }
 
-    .col-md-6{
+    .col{
         width:100% !important;
     }
 }
