@@ -16,6 +16,7 @@ function About(){
        <img src={bgImg} alt='bg-img' className='bgImg'/>
         <div className='container12 container shadow-lg p-3 mb-5 bg-white rounded'>
             
+
             <div className='row'>
               <h1 className='GetToKnow'>GET TO KNOW BETTER</h1>
               <hr id='Hr_GetToKnow'/>
@@ -27,8 +28,8 @@ function About(){
                      solutions for any residential/commercial project.</p>
                 </div>
               </div>
-              <div className='row'>
-                <div className='col-md-6  phylosophy_container shadow-lg p-3 mb-5 bg-white rounded'>
+              <div className='row row1345'>
+                <div className='col  phylosophy_container shadow-lg p-3 mb-5 bg-white rounded'>
                   <h1 id='PHILOSOPHY_Headding'>OUR PHILOSOPHY</h1>
                   <p id='phylosophy_p'>Introducing the ground-breaking 
                   Thermal-Break Technology, our systems are unmatched in energy 
@@ -36,15 +37,15 @@ function About(){
                   consists of high-quality doors, windows, facades, skylights,
                    wall claddings, railings and other architectural products.</p>
                 </div>
-                <div className='col-md-6 '>
+                <div className='col '>
                   <img src={Img1} alt="Img" className='Img1and2'/>
                 </div>
               </div>
-              <div className='row'>
-                <div className='col-md-6'>
+              <div className='row row1345'>
+                <div className='col'>
                   <img src={Img2} alt="Img" className='Img1and2'/>
                 </div>
-                <div className='col-md-6 About_Our_Future_Container shadow-lg p-3 mb-5 bg-white rounded'>
+                <div className='col About_Our_Future_Container shadow-lg p-3 mb-5 bg-white rounded'>
                   <h1 id='PHILOSOPHY_Headding'>ABOUT OUR FUTURE</h1>
                   <p id='phylosophy_p'>We intend to work 
                   collaboratively with architects, builders and end 
