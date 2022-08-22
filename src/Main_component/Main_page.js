@@ -164,7 +164,7 @@ function main_page() {
     <div className="col-md ">
     
     <a href='/detail/door' className='hovering'>
-    <img src={Img4} className='Imgs'/>
+    <img src={Img4} alt ="..." className='Imgs'/>
     
     <div id='contents_id'>
     <h1 >SLIDE-N-FOLD DOORS</h1>
@@ -179,17 +179,18 @@ function main_page() {
 
 
 <div className='row push'>
-    <div className='col-md-6 '>
-        <h1>OUR VISION</h1>
+    <div className='col '>
+        <h1 id='our_vision'>OUR VISION</h1>
         <hr id='futured_hr'/>
         <div className='padding_p'>
         <p>We intend to work collaboratively with architects, builders and end consumers to create spaces with better functionality and design aesthetics, while providing the best solution at a cost-effective price.</p>
+        </div>
         <br/>
         <br/>
         <a href='/about'><button type="button" id='ButtonLearnMore' className="btn btn-lg btn-outline-dark">LEARN MORE</button></a>
-        </div>
+        
     </div>
-    <div className='col-md-6'>
+    <div className='col'>
         <img src={FImg} className='FImg'/>
     </div>
 </div>
