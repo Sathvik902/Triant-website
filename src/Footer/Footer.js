@@ -30,7 +30,7 @@ function Footer() {
         <div class="form-group">
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email"/>
         <br/>
-        <button type="submit" size={30} class="btn btn-outline-dark button btn_custom" onClick={subscribed}>SUBSCRIBE</button>
+        <button type="submit" size={20} class="btn btn-outline-dark button btn_custom" onClick={subscribed}>SUBSCRIBE</button>
       </div>
       </div>
       <div className="col mb-md-0 mb-3">
@@ -38,7 +38,7 @@ function Footer() {
 
         <ul className="list-unstyled">
           <li>
-            <a href="/!" className='footer_links'>Level 18, DLF Cyber City, Building No. 5, Tower A, Phase 3, Gurugram - 122002</a>
+            <a href="/!" className='footer_links' id='address_p'>Level 18, DLF Cyber City, Building No. 5, Tower A, Phase 3, Gurugram - 122002</a>
           </li>
         </ul>
       </div>

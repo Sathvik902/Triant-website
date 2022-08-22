@@ -38,7 +38,7 @@ function Header() {
           
         </nav>
 
-        <nav className="navbar">
+      <nav className="navbar">
             <img src={img} className='navImg' alt='logo'/>
             <ul className={isMobile?"nav-links-mobile":"nav-links"}
             onClick={()=>setIsMobile(false)}>

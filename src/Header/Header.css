@@ -7,6 +7,7 @@
 .ml-auto, .mx-auto {
     margin-left: auto!important;
 }
+
 .ul{
     position: relative;
 }
@@ -247,10 +248,11 @@ font-size: 14px;
 }
 .nav-links1{
     position: absolute;
+    justify-content: space-between;
         display:flex;
         /* list-style: none; */
         background: black;
-        left: 140px !important;
+        left:16% !important;
         /* top:0%; */
         transition:all 0.5s ease-in-out   ;
         -webkit-transition:all 0.5s ease-in-out   ;
@@ -318,9 +320,10 @@ font-size: 14px;
     .nav-links1{
         position: absolute;
             display:flex;
+            justify-content: space-between;
             /* list-style: none; */
             background: black;
-            left: 220px;
+            left: 40%;
             /* top:0%; */
             transition:all 0.5s ease-in-out   ;
             -webkit-transition:all 0.5s ease-in-out   ;
@@ -328,7 +331,7 @@ font-size: 14px;
             -ms-transition:all 0.5s ease-in-out   ;
             -o-transition:all 0.5s ease-in-out   ;
             height: 0% !important;
-            width:50%;
+            width:20%;
             z-index: 20;
             text-align: center;
     }

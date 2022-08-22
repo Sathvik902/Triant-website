@@ -124,16 +124,15 @@ function main_page() {
                 <br/>
                 
                 <a href='/about'><button type="button" className="btn btn-lg btn-outline-dark btn_coustoms">Learn More</button></a>
-                
             </div>
             <div className="container2 text-center BigContainer">
             <h1 id='futured_products'>FUTURED PRODUCTS</h1>
             <hr id='futured_hr'/>
             
-  <div className="row ">
+  <div className="row contents_row ">
     <div className="col-md ">
     <a href='/detail/door'>
-      <img src={Img1} className='Imgs'/>
+      <img src={Img1} alt='...' className='Imgs'/>
       
       <div id='contents_id'>
         <h1 >SLIDING DOORS</h1>
@@ -176,6 +175,7 @@ function main_page() {
   </div>
   <a href='/product'><button  type="button" className="btn btn-lg btn-outline-dark btn_coustom1">VIEW ALL PRODUCTS</button></a>
  
+
 
 
 <div className='row push'>
