@@ -3,6 +3,7 @@ import './About.css'
 import bgImg from '../Images/15.png'
 import Img1 from '../Images/3-2.png'
 import Img2 from '../Images/4-2.png'
+// eslint-disable-next-line no-unused-vars
 import { FaPhoneAlt,FaRegEnvelope } from 'react-icons/fa';
 // import { Row } from 'react-bootstrap'
 
@@ -20,14 +21,14 @@ function About(){
               <hr id='Hr_GetToKnow'/>
               <div className='row'>
                 <div className='col'>
-                  <h1 id='backgroundInfo'>BACKGROUND INFO</h1>
+                  <h1 id='backgroundInfo'>BACKGROUND INFO</h1><br/>
                   <p id='getToKnow_P'>Backed by a team of Alumni from IIT D and Ivy League,
                      Triant Aluminium is a young startup with a vision to promote innovative technologies to disrupt the Indian Fenestration market. Headquartered in Gurgaon, we have expanded our presence in many cities now. Our channel partners allow us to execute and deliver
                      solutions for any residential/commercial project.</p>
                 </div>
               </div>
               <div className='row'>
-                <div className='col-md-6 phylosophy_container shadow-lg p-3 mb-5 bg-white rounded'>
+                <div className='col-md-6  phylosophy_container shadow-lg p-3 mb-5 bg-white rounded'>
                   <h1 id='PHILOSOPHY_Headding'>OUR PHILOSOPHY</h1>
                   <p id='phylosophy_p'>Introducing the ground-breaking 
                   Thermal-Break Technology, our systems are unmatched in energy 

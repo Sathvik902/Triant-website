@@ -2,10 +2,10 @@
   margin-top:10%;
 }
 
-.col-md-3 {
+/* .col-md-3 {
   display: inline !important;
   
-}
+} */
 .text-uppercase{
   font-size: 30px;
   font-weight: 300px;
@@ -21,6 +21,7 @@
   color:yellow;
 }
 
+
 .button{
   color: black !important;
   background-color: white !important;
@@ -34,8 +35,8 @@
 
 .footerrow{
   /* padding-top: 200px !important; */
-  width: 90% !important;
-  display: inline;
+  width: 96% !important;
+  /* display: inline; */
 }
 
 .footer{

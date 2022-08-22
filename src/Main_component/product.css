@@ -7,7 +7,7 @@
     left: 20%;
 }
 
-.col-md-6{
+.col-6{
     width:50% !important;
 }
 
@@ -27,8 +27,14 @@
     /* cursor: pointer; */
 }
 
-.col-md-6 p{
+.col-6 p{
+    display: flex;
+    flex-direction: row;
     font-weight: 100 !important;
+    font-size: 2rem !important;
+    width: 80%;
+    position: relative;
+    left: 12%;
 }
 
 @media screen and (max-width:768px) {

@@ -16,6 +16,22 @@
     
 }
 
+#contact_p{
+    /* position: relative; */
+    /* margin-top: 20px; */
+    margin-left: 20px;
+    font-size: 1.65rem;
+    width: 90%;
+}
+
+#contact_h1{
+    font-size: 3rem;
+}
+
+.contact_us_p p{
+    margin-top: 20px;
+}
+
 form{
     background-color: #fff;
     display: flex;
