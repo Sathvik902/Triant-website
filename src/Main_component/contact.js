@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import bgImg from '../Images/table-2577998_1920.jpg'

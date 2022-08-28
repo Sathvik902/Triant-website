@@ -8,7 +8,11 @@ body ::selection{
 }
 
 .rows123{
-  display: grid !important ;
+  /* position: relative; */
+  position: relative;
+  padding-left: 10% !important;
+    display: grid !important ;
+  /* left:2% !important; */
   /* grid-row: inline; */
   /* width:700% !important; */
   /* height:30px; */
@@ -71,6 +75,7 @@ overflow: hidden;
 }
 
 
+
 .container2{
   height: 100% !important;
 position: relative;
@@ -97,6 +102,7 @@ padding: 0 !important;
 
 .col{
   padding-bottom: 20px;
+  
   /* height: 300px; */
 }
 
@@ -766,7 +772,11 @@ margin-right: 20px;
 
 
 .rows123{
+  /* position: relative !important; */
   display: grid !important ;
+  position: relative;
+  padding-left: 8% !important;
+  /* padding-left: 20%!important; */
   /* grid-row: inline; */
   /* width:700% !important; */
   /* height:30px; */
@@ -847,13 +857,14 @@ margin-right: 20px;
 
 
 .container1{
-  z-index: 0;
+  /* z-index: 0; */
+  width: 100%;
   position: relative !important;
-  left:5%;
-  width: 100% !important;
+  /* left:10% !important; */
+  /* width: 100rem !important; */
   top:0px;
   /* top:450px; */
-  padding-top: 100px !important;
+  /* padding-top: 100px !important; */
   /* left:0; */
   
 }

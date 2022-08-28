@@ -3,11 +3,19 @@ import './About.css'
 import bgImg from '../Images/15.png'
 import Img1 from '../Images/3-2.png'
 import Img2 from '../Images/4-2.png'
+// import { useState } from 'react'
 // eslint-disable-next-line no-unused-vars
 import { FaPhoneAlt,FaRegEnvelope } from 'react-icons/fa';
 // import { Row } from 'react-bootstrap'
 
+
+
+
 function About(){
+
+  // const [shadow, setShadow] = useState('shadow-lg p-3 mb-5 bg-white rounded')
+
+
   return (
     <div className='About_Container'>
       <div className='main_name'>
@@ -20,7 +28,7 @@ function About(){
             <div className='row'>
               <h1 className='GetToKnow'>GET TO KNOW BETTER</h1>
               <hr id='Hr_GetToKnow'/>
-              <div className='row'>
+              <div className='row row1345'>
                 <div className='col'>
                   <h1 id='backgroundInfo'>BACKGROUND INFO</h1><br/>
                   <p id='getToKnow_P'>Backed by a team of Alumni from IIT D and Ivy League,
@@ -29,7 +37,7 @@ function About(){
                 </div>
               </div>
               <div className='row row1345'>
-                <div className='col  phylosophy_container shadow-lg p-3 mb-5 bg-white rounded'>
+                <div className='col  phylosophy_container shadow-lg p-3 mb-5 bg-white '>
                   <h1 id='PHILOSOPHY_Headding'>OUR PHILOSOPHY</h1>
                   <p id='phylosophy_p'>Introducing the ground-breaking 
                   Thermal-Break Technology, our systems are unmatched in energy 
@@ -45,7 +53,7 @@ function About(){
                 <div className='col'>
                   <img src={Img2} alt="Img" className='Img1and2'/>
                 </div>
-                <div className='col About_Our_Future_Container shadow-lg p-3 mb-5 bg-white rounded'>
+                <div className='col About_Our_Future_Container shadow-lg p-3 mb-5 bg-white '>
                   <h1 id='PHILOSOPHY_Headding'>ABOUT OUR FUTURE</h1>
                   <p id='phylosophy_p'>We intend to work 
                   collaboratively with architects, builders and end 

@@ -33,7 +33,7 @@ function Product() {
         <div className='container5 shadow-lg p-3 mb-5 bg-white rounded'>
          
             <div className='row'>
-                <div className='col'>
+                <div className='col rows123'>
                     
                 <a href='../detail/window'><img src={window} className='div_imgs' alt='window'/></a>
                     <h1 id='products_h1'>CASEMENT WINDOWS</h1>
@@ -42,7 +42,7 @@ function Product() {
                     Casement Windows, Sliding Windows, Awning Windows, Tilt-n-Turn Windows, Fixed Windows.
                     </p>
                 </div>
-                <div className='col  '>
+                <div className='col rows123 '>
                 <a href='../detail/Window'><img src={door} alt='doors' className='div_imgs'/></a>
                     <h1 id='products_h1'>SLIDING WINDOWS</h1><br/>
                     <br/>
@@ -52,14 +52,14 @@ function Product() {
                 </div>
             </div>
             <div className='row'>
-                <div className='col  '>
+                <div className='col  rows123'>
                 <a href='../detail/Window'><img src={Awining_doors} className='div_imgs' alt='window'/></a>
                     <h1 id='products_h1'> AWNING WINDOWS</h1><br/>
                     <p>
                     Casement Windows, Sliding Windows, Awning Windows, Tilt-n-Turn Windows, Fixed Windows.
                     </p>
                 </div>
-                <div className='col '>
+                <div className='col rows123 '>
                 <a href='../detail/Window'><img src={double_casement_windows} alt='doors' className='div_imgs'/></a>
                     <h1 id='products_h1'>DOUBLE CASEMENT WINDOWS</h1><br/>
                     <p>
@@ -68,14 +68,14 @@ function Product() {
                 </div>
             </div>
             <div className='row'>
-                <div className='col  '>
+                <div className='col rows123 '>
                 <a href='../detail/Window'><img src={fixed_windows} className='div_imgs' alt='window'/></a>
                     <h1 id='products_h1'>FIXED WINDOWS</h1><br/>
                     <p>
                     Casement Windows, Sliding Windows, Awning Windows, Tilt-n-Turn Windows, Fixed Windows.
                     </p>
                 </div>
-                <div className='col  '>
+                <div className='col rows123 '>
                 <a href='../detail/door'><img src={casement_doors} alt='doors' className='div_imgs'/></a>
                     <h1 id='products_h1'>CASEMENT DOORS</h1><br/>
                     <p>
@@ -84,14 +84,14 @@ function Product() {
                 </div>
             </div>
             <div className='row'>
-                <div className='col  '>
+                <div className='col rows123 '>
                 <a href='../detail/door'><img src={sliding_doors} className='div_imgs' alt='window'/></a>
                     <h1 id='products_h1'>SLIDING DOORS</h1><br/>
                     <p>
                     Casement Windows, Sliding Windows, Awning Windows, Tilt-n-Turn Windows, Fixed Windows.
                     </p>
                 </div>
-                <div className='col  '>
+                <div className='col rows123 '>
                 <a href='../detail/door'><img src={side_n_fold} alt='doors' className='div_imgs'/></a>
                     <h1 id='products_h1'>SLIDE-N-FOLD DOORS</h1><br/>
                     <p>
@@ -100,14 +100,14 @@ function Product() {
                 </div>
             </div>
             <div className='row'>
-                <div className='col  '>
+                <div className='col rows123 '>
                 <a href='../detail/maingate'><img src={sliding_gates} className='div_imgs' alt='window'/></a>
                     <h1 id='products_h1'>SLIDING GATES</h1><br/>
                     <p>
                     Casement Windows, Sliding Windows, Awning Windows, Tilt-n-Turn Windows, Fixed Windows.
                     </p>
                 </div>
-                <div className='col  '>
+                <div className='col rows123 '>
                 <a href='../detail/maingate'><img src={swing_gates} alt='doors' className='div_imgs'/></a>
                     <h1 id='products_h1'>SWING GATES</h1><br/>
                     <p>
@@ -116,14 +116,14 @@ function Product() {
                 </div>
             </div>
             <div className='row'>
-                <div className='col  '>
+                <div className='col  rows123'>
                 <a href='../detail/maingate'><img src={wall_cladding} className='div_imgs' alt='window'/></a>
                     <h1 id='products_h1'>WALL CLADDING</h1><br/>
                     <p>
                     Casement Windows, Sliding Windows, Awning Windows, Tilt-n-Turn Windows, Fixed Windows.
                     </p>
                 </div>
-                <div className='col  '>
+                <div className='col rows123 '>
                 <a href='../detail/maingate'><img src={curtain} alt='doors' className='div_imgs'/></a>
                     <h1 id='products_h1'>CURTAIN WALLS</h1><br/>
                     <p>
@@ -132,15 +132,17 @@ function Product() {
                 </div>
             </div>
             <div className='row'>
-                <div className='col  '>
-                <img src={louvers} className='div_imgs' alt='window'/>
+                <div className='col rows123 '>
+                <a href='/product'><img src={louvers} alt='doors' className='div_imgs'/></a>
+                {/* <img src={louvers} className='div_imgs' alt='window'/> */}
                     <h1 id='products_h1'>LOUVERS</h1><br/>
                     <p>
                     Casement Windows, Sliding Windows, Awning Windows, Tilt-n-Turn Windows, Fixed Windows.
                     </p>
                 </div>
-                <div className='col  '>
-                <img src={railings} alt='doors' className='div_imgs'/>
+                <div className='col  rows123'>
+                <a href='/product'><img src={railings} alt='doors' className='div_imgs'/></a>
+                {/* <img src={railings} alt='doors' className='div_imgs'/> */}
                     <h1 id='products_h1'>RAILINGS</h1><br/>
                     <p>
                     Sliding Doors, Casement Doors, Slide-n-Fold Doors
@@ -148,15 +150,17 @@ function Product() {
                 </div>
             </div>
             <div className='row'>
-                <div className='col  '>
-                <img src={cielings} alt='curtain_walls'className='div_imgs'/>
+                <div className='col rows123 '>
+                <a href='/product'><img src={cielings} alt='doors' className='div_imgs'/></a>
+                {/* <img src={cielings} alt='curtain_walls'className='div_imgs'/> */}
                 <h1 id='products_h1'>CEILINGS</h1><br/>
                 <p>
                 Stick Curtain Walls, Semi-unitized Curtain Walls, Unitized Curtain Walls
                 </p>
                 </div>
-                <div className='col  '>
-                <img src={skylight} alt='gates'className='div_imgs'/>
+                <div className='col rows123 '>
+                <a href='/product'><img src={skylight} alt='doors' className='div_imgs'/></a>
+                {/* <img src={skylight} alt='gates'className='div_imgs'/> */}
                 <h1 id='products_h1'>SKYLIGHTS</h1><br/>
                 <p>
                 Aluminium Sliding and Casement Gates
