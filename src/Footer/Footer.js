@@ -33,7 +33,7 @@ function Footer() {
         <button type="submit" size={20} class="btn btn-outline-dark button btn_custom" onClick={subscribed}>SUBSCRIBE</button>
       </div>
       </div>
-      <div className="col mb-md-0 mb-3">
+      <div className="col-md-6 mb-md-0 mb-3">
         <h5 className="text-uppercase">ADDRESS</h5>
 
         <ul className="list-unstyled">
