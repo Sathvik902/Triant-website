@@ -51,10 +51,10 @@ function maingates() {
         </div>
        </div>
        <div className='row row1 shadow-lg p-3 mb-5 bg-white rounded'>
-        <div className='col-md-6'>
-        <img src={slider2_img1} className='fixed_window'></img>
+        <div className='col'>
+        <img src={slider2_img1} alt='...' className='fixed_window'/>
         </div>
-       <div className='col-md-6 discription'>
+       <div className='col discription'>
           <h1>SWING GATES</h1>
           <hr className='hr'/>
           <p>Swing gates are a secure and convenient option for main entrances. These gates can be automated to operate at the touch of a button. They can be combined with sliding gates for customised solutions. A wide range of designs and colour options are available.</p>
