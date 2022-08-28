@@ -133,7 +133,7 @@ position: relative;
 margin-top: 0px;
 /* left: 18% !important; */
 text-align: center;
-width: 100%;
+width: 70%;
 margin-left:30px;
 margin-right: 20px;
   font-size: 18px;
@@ -186,6 +186,7 @@ border-width: 2px !important;
   -ms-border-radius: 0 !important;
   -o-border-radius: 0 !important;
   width: 20%;
+  top: -8rem;
 }
 
 #ButtonLearnMore:hover{
@@ -533,10 +534,11 @@ background: black;
 } */
 
 .padding_p{
-  left: 0 !important;
+  position: relative;
+  left: -8rem !important;
   /* margin: 50px; */
-  width: 80% !important;
-  top: -120px !important;
+  width: 60rem !important;
+  top: -30px !important;
 }
 .ourVision{
   margin-top: 20%;
@@ -984,7 +986,7 @@ top:-130px;
 
 #ButtonLearnMore{
   position: relative;
-left: -8% !important;
+left: -10rem !important;
 border-width: 2px !important;
   border-color: black !important;
   font-size: 15px !important;
@@ -998,6 +1000,7 @@ border-width: 2px !important;
   -ms-border-radius: 0 !important;
   -o-border-radius: 0 !important;
   width: 50% !important;
+  top: 0rem;
 }
 
 .push{
@@ -1066,6 +1069,12 @@ height:90%;
          -moz-transition: 0.5s;
          -ms-transition: 0.5s;
          -o-transition: 0.5s;
+}
+
+#our_vision{
+  position: relative;
+  left: -10rem;
+  font-size: 20px;
 }
 .btn_coustom{
   

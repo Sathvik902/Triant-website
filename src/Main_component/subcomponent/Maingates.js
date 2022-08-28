@@ -44,7 +44,7 @@ function maingates() {
                     </a>
               </div>
         </div>
-        <div className='col-md-6 discription'>
+        <div className='col discription'>
           <h1>SLIDING GATES</h1>
           <hr className='hr'/>
           <p>Sliding gates are a secure and convenient option for main entrances. These gates can be automated to operate at the touch of a button along with an option for pedestrian entry. They can be combined with swing gates for customised solutions.</p>
@@ -82,7 +82,7 @@ function maingates() {
                     </a>
               </div>
         </div>
-        <div className='col-md-6 discription'>
+        <div className='col discription'>
           <h1>WALL CLADDING</h1>
           <hr className='hr'/>
           <p>Walls at the main entrance can be clad with aluminium profiles to give them a great finish. The wall cladding complements swing and casement gates and gives a unified look to the elevation.</p>

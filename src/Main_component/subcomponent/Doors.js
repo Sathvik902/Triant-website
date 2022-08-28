@@ -47,7 +47,7 @@ function maingates() {
                     </a>
               </div>
         </div>
-        <div className='col-md-6 discription'>
+        <div className='col discription'>
           <h1>CASEMENT DOORS</h1>
           <hr className='hr'/>
           <p>The classic and sophisticated design of these doors offers both single panel and double panel configurations. They are equipped with thermal-break technology which keeps the heat and noise outside and increases the energy-efficiency of the building. Great performance parameters ensure smooth operation, less noise and protection from harsh weather.</p>
@@ -78,7 +78,7 @@ function maingates() {
                     </a>
               </div>
         </div>
-       <div className='col-md-6 discription'>
+       <div className='col discription'>
           <h1>SLIDING DOORS</h1>
           <hr className='hr'/>
           <p>Sliding doors are a great choice for places where passage is needed along with ventilation. They are equipped with thermal-break technology which keeps the heat and noise outside and increases the energy-efficiency of the building. Great performance parameters ensure smooth operation, less noise and protection from harsh weather.</p>
@@ -107,7 +107,7 @@ function maingates() {
                     </a>
               </div>
         </div>
-        <div className='col-md-6 discription'>
+        <div className='col discription'>
           <h1>SLIDE-N-FOLD DOORS</h1>
           <hr className='hr'/>
           <p>Slide-n-fold accordion doors are a great choice for large partitions and collapse entirely onto each other to offer upto 95% opening. These doors are equipped with high-strength rollers along the middle-axis to ensure longevity. </p>
