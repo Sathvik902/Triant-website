@@ -48,6 +48,10 @@
     margin: 8%;
 }
 
+.carousel-item img{
+    cursor: pointer;
+}
+
 .hr{
     position: relative;
     left:45%;
