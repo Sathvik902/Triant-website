@@ -28,7 +28,7 @@ function maingates() {
        <br/>
        <div className='row row1 shadow-lg p-3 mb-5 bg-white rounded'>
         <div className='col'>
-                          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"data-interval="3000">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <img class="d-block w-100" src={slider1_img1} alt="First slide"/>
@@ -37,14 +37,6 @@ function maingates() {
                         <img class="d-block w-100" src={slider1_img2} alt="Second slide"/>
                       </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
               </div>
         </div>
         <div className='col discription'>
@@ -55,7 +47,7 @@ function maingates() {
        </div>
        <div className='row row1 shadow-lg p-3 mb-5 bg-white rounded'>
        <div className='col'>
-                          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"data-interval="3000">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <img class="d-block w-100" src={slider2_img1} alt="First slide"/>
@@ -67,15 +59,6 @@ function maingates() {
                         <img class="d-block w-100" src={slider2_img3} alt="Second slide"/>
                       </div>
                     </div>
-                    
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
               </div>
         </div>
        <div className='col discription'>
@@ -87,7 +70,7 @@ function maingates() {
         
        <div className='row row1 shadow-lg p-3 mb-5 bg-white rounded'>
        <div className='col'>
-                          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"data-interval="3000">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <img class="d-block w-100" src={slider3_img1} alt="First slide"/>
@@ -96,15 +79,6 @@ function maingates() {
                         <img class="d-block w-100" src={slider3_img2} alt="Second slide"/>
                       </div>
                     </div>
-                    
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
               </div>
         </div>
         <div className='col discription'>
