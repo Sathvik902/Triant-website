@@ -61,6 +61,8 @@
     }
 
     .col{
+        position: relative;
+        padding-left: 20px;
         width:100% !important;
     }
 }
@@ -73,5 +75,10 @@
         top:40% !important;
         width: 90% !important;
         left: 6%;
+    }
+    .col{
+        position: relative !important;
+        padding-left: 20% !important;
+        width:100% !important;
     }
 }

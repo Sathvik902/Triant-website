@@ -62,7 +62,7 @@ function main_page() {
                 </div>
             </div>
             <div className='row '>
-            <div className='col-md-12 '>
+            <div className='col-md-12'>
                 <br/>
                 <br/>
             <a href={'/product'}><button type="button" className="btn btn-lg btn-outline-dark btn_coustom">VIEW ALL PRODUCTS</button></a>
@@ -179,7 +179,7 @@ function main_page() {
 
 
 <div className='row push'>
-    <div className='col '>
+    <div className='col rows123 '>
         <h1 id='our_vision'>OUR VISION</h1>
         <hr id='futured_hr'/>
         <div className='padding_p'>
@@ -190,8 +190,8 @@ function main_page() {
         <a href='/about'><button type="button" id='ButtonLearnMore' className="btn btn-lg btn-outline-dark">LEARN MORE</button></a>
         
     </div>
-    <div className='col'>
-        <img src={FImg} className='FImg'/>
+    <div className='col rows123'>
+        <img src={FImg} alt = "..." className='FImg'/>
     </div>
 </div>
           

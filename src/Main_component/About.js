@@ -52,7 +52,7 @@ function About(){
               <div className='row row1345'>
                 <div className='col'>
                   <img src={Img2} alt="Img" className='Img1and2'/>
-                </div>
+                </div> 
                 <div className='col About_Our_Future_Container shadow-lg p-3 mb-5 bg-white '>
                   <h1 id='PHILOSOPHY_Headding'>ABOUT OUR FUTURE</h1>
                   <p id='phylosophy_p'>We intend to work 

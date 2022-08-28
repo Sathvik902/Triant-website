@@ -174,8 +174,8 @@
 
     #getToKnow_P{
         text-align: center;
-        width: 90%;
-        left: 5%;
+        width: 100%;
+        left: -10%;
         
     }
 
@@ -218,6 +218,7 @@
         margin-left:  0rem !important;
 
     }
+
     .phylosophy_container{
         width:2px !important;
      }
@@ -252,11 +253,29 @@
         top: 20%!important;
     }
 
+
+    .Img1and2{
+        position: relative;
+        left: -30%;
+        top: 40px;
+        width: 70%;
+        height:90%;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        /* filter: contrast(8);
+        -webkit-filter: contrast(8); */
+    }
+
     #getToKnow_P{
+        position: relative;
+        left: -4%;
         font-size: 18px;
         padding: 40px 40px;
-        margin-left: 0%;
-        margin-right: 0%;
+        /* margin-left: 0%;
+        margin-right: 0%; */
         color: rgb(61, 58, 58);
         
         
@@ -264,6 +283,8 @@
     }
 
     #backgroundInfo{
+        position: relative;
+        left: -14%;
         padding:0 5px 0 5px;
     }
 

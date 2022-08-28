@@ -17,7 +17,6 @@ import sliding_gates from "../Images/5-copy.1.png"
 import swing_gates from "../Images/6-copy.1.png"
 import sliding_doors from "../Images/2-copy.png"
 import curtain from "../Images/7-copy.1.png"
-// import Awining_doors from "../Images/1-copy.1.png"
 import './product.css'
 
  
