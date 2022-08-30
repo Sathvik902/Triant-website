@@ -177,7 +177,6 @@ function main_page() {
  
 
 
-
 <div className='row push'>
     <div className='col rows123 '>
         <h1 id='our_vision'>OUR VISION</h1>

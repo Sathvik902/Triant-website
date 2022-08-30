@@ -12,6 +12,7 @@ body ::selection{
   position: relative;
   padding-left: 10% !important;
     display: grid !important ;
+    
   /* left:2% !important; */
   /* grid-row: inline; */
   /* width:700% !important; */
@@ -982,6 +983,7 @@ color:white;
 background-color: black;
 top:-130px;
 }
+
 
 
 #ButtonLearnMore{

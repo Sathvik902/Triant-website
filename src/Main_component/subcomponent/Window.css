@@ -85,10 +85,18 @@
 
 @media screen and (max-width:780px) {
     .discription p{
-        text-align: center;
+        text-align: left;
         margin-top: 6% !important;
         margin: 8%;
+
+        
     }
+    .row1{
+        display: grid !important ;
+        position: relative;
+        padding-left: 4% !important;
+    }
+
     
     .hr{
         position: relative;
@@ -99,17 +107,17 @@
     }
     .discription h1{
         position: relative;
-        text-align: center;
-        left: -1%;
+        text-align: right;
+        left: 8%;
         color:rgb(80, 78, 78);
         font-weight: 600;
-        font-size: 30px;
+        font-size: 25px;
         padding-top: 10%;
     }
     .col{
         position: relative;
         padding-top: 3%;
-        left: -12% !important;;
+        left: -16% !important;;
     }
 }
 
