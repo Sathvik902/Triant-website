@@ -776,6 +776,7 @@ margin-right: 20px;
 }
 
 
+
 .rows123{
   /* position: relative !important; */
   display: grid !important ;
@@ -1113,6 +1114,8 @@ body{
 }
 
 #our_vision{
+  position: relative;
+  left: -11%;
   font-size: 20px;
 }
 
@@ -1122,6 +1125,11 @@ body{
   position: relative;
   width: 100%!important;
   height: 200% !important;
+}
+.paragraph_in_container1{
+  padding-left: 12%;
+  text-align: center !important;
+  width: 80% !important;
 }
 
 
@@ -1283,8 +1291,8 @@ top:-350px !important;
 }
 #ButtonLearnMore{
   position: relative;
-/* left: 10px !important; */
-border-width: 2px !important;
+  left: -5rem !important;
+  border-width: 2px !important;
   border-color: black !important;
   font-size: 15px !important;
   font-weight: 600;
@@ -1297,6 +1305,7 @@ border-width: 2px !important;
   -ms-border-radius: 0 !important;
   -o-border-radius: 0 !important;
   width: 30%;
+  
 }
 .push{
 position: relative;
@@ -1307,6 +1316,7 @@ top: -260px !important;
 position: relative;
 width: 90%;
 height:130%;
+left: 5rem;
 }
 .btn_coustoms{
 position: relative;

@@ -26,6 +26,7 @@ function main_page() {
             <p>
                 We guarantee the highest quality of workmanship and service across a diverse range of product offerings.
             </p>
+            
         </div>
         <img src={bgImg} alt='bg-img' className='bgImg'/>
         <div className=' container1 shadow-lg p-3 mb-5 bg-white rounded'> 

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-pascal-case */
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -11,6 +12,7 @@ import About from './Main_component/About';
 import Window from './Main_component/subcomponent/Windows';
 import Doors from './Main_component/subcomponent/Doors';
 import Gates from './Main_component/subcomponent/Maingates';
+// import CustomCursor from './customcursor';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import{
   Routes,BrowserRouter as Router,Route
@@ -22,7 +24,7 @@ root.render(
   <React.StrictMode>
     <Router>
     <div>
-    {/* <Cursor/> */}
+    {/* <CustomCursor/> */}
     <Header/>
     <Routes>
       <Route path='/' element={<Main_page/>}/>
