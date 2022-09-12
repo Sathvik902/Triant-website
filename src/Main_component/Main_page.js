@@ -194,7 +194,7 @@ function main_page() {
         <img src={FImg} alt = "..." className='FImg'/>
     </div>
 </div>
-          
+        
     </div>
 
   )

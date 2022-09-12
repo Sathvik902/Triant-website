@@ -144,6 +144,15 @@ padding: 20px;
 cursor: pointer;
 
 }
+#icons{
+    font-size: 16px;
+    color: yellow;
+}
+.activeclass{
+    color: yellow !important;
+    text-decoration: line-through;
+    font-weight: solid;
+}
 
 .nav-links2{
     position: relative;
@@ -163,11 +172,10 @@ font-size: 14px;
     text-decoration: none;
     color: white;
 }
-.link:hover{
+
+.active-link{
     color:yellow;
-
 }
-
 
 
 
@@ -188,9 +196,17 @@ font-size: 14px;
 .product:hover,
 .about:hover,
 .contact:hover{
-    color: yellow !important;;
-    text-decoration: none !important;
+    color: yellow !important;
+    text-decoration: underline 2px;
+    
 }
+
+nav ul .active{
+    color: yellow !important;
+    text-decoration: underline 2px;
+
+}
+
 .home:visited,
 .product:visited,
 .about:visited,

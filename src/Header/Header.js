@@ -1,11 +1,11 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 import '../Header/Header.css'
 import img from '../Images/WHITE-RGB-TRIANT-LOGO-1.jpg'
 import { useState } from 'react'
 import { BsFillClockFill } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
-import { FiPhoneCall } from "react-icons/fi";
+import { MdCall } from "react-icons/md";
 import { AiFillFacebook,AiFillInstagram,AiFillLinkedin } from "react-icons/ai";
 
 function Header() {
@@ -19,9 +19,9 @@ function Header() {
     <ul className="nav-links2"
             >
 
-              <li className='link'><FiPhoneCall/><span id='span'>&nbsp;&nbsp;+91 9482197514</span> </li>
-              <li className='link'><HiOutlineMail/><span id='span'>&nbsp;&nbsp;info@triantaluminium.com</span></li>
-              <li className='link'><BsFillClockFill/> <span id='span'>&nbsp;&nbsp;Mon - Sat: 10:00 - 19:30</span></li>
+              <li className='link'><span id='icons'><MdCall/></span><span id='span'>&nbsp;&nbsp;+91 9482197514</span> </li>
+              <li className='link'><span id='icons'><HiOutlineMail/></span><span id='span'>&nbsp;&nbsp;info@triantaluminium.com</span></li>
+              <li className='link'><span id='icons'><BsFillClockFill/></span> <span id='span'>&nbsp;&nbsp;Mon - Sat: 10:00 - 19:30</span></li>
               
                   
           </ul>
@@ -44,16 +44,16 @@ function Header() {
             onClick={()=>setIsMobile(false)}>
             
                   
-                    <Link className="home" to="/"><li >HOME</li></Link>
+                    <NavLink className="home" to="/"><li>HOME</li></NavLink>
                   
                   
-                    <Link className="product" to="/product"><li>PRODUCTS</li></Link>
+                    <NavLink className="product" to="/product"><li>PRODUCTS</li></NavLink>
                   
                   
-                    <Link className="about" to="/about"><li>ABOUT</li></Link>
+                    <NavLink className="about" to="/about"><li>ABOUT</li></NavLink>
                   
                   
-                    <Link className="contact" to="/contact"><li>CONTACT</li></Link>
+                    <NavLink className="contact" to="/contact"><li>CONTACT</li></NavLink>
                   
           </ul>
           <button className='mobile-menu-icon'
