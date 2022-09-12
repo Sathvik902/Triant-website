@@ -102,11 +102,19 @@
     position: relative;
     top:-30px;
   }
+  #footeraddressleft{
+    position: relative;
+    left: 4rem;
+  }
 
   .stay_in_touch{
     padding-bottom: 50px!important;
   }
 
+  #address_p{
+    position: relative;
+    left: 4rem;
+  }
   .text-uppercase{
     /* left: 2% !important; */
     padding-bottom: 2px;

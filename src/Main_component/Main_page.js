@@ -127,7 +127,7 @@ function main_page() {
                 <a href='/about'><button type="button" className="btn btn-lg btn-outline-dark btn_coustoms">Learn More</button></a>
             </div>
             <div className="container2 text-center BigContainer">
-            <h1 id='futured_products'>FUTURED PRODUCTS</h1>
+            <h1 id='futured_products'>FEATURED PRODUCTS</h1>
             <hr id='futured_hr'/>
             
   <div className="row contents_row ">

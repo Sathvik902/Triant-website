@@ -1,77 +1,3 @@
-/* .navbar{
-    background-color: black !important;
-    margin-bottom: 0;
-    //height:300px !important;
-}
-
-.ml-auto, .mx-auto {
-    margin-left: auto!important;
-}
-
-.ul{
-    position: relative;
-}
-.navbar-toggler{
-    display:none;
-} 
-@media (max-width:550px) {
-    .navbar-toggler{
-        display:flex;
-        position: absolute;
-        left: 30% !important;
-        color:white;
-    }
-    .ul{
-        display: none !important;
-    }
-}
-
-.nav-link{
-    font-size: 2rem;
-    color:white;
-    
-}
-
-
-.navImg{
-    position: relative;
-    width: 20%;
-    left:10%;
-}
-.navbar a{
-    color: white !important;
-    padding-right: 23px !important;
-}
-a:hover{
-    text-decoration: underline !important;
-    color:yellow !important;
-}
-.btn-secondary{
-    color:black;
-    background: white;
-}
-
-@media (max-width: 600px) {
-    
-    .nav-item{
-        padding: 10px;
-        color:white;
-        
-    }
-    .collapse{
-        padding-left: 200px;
-    }
-    
-  }
-
-  .icons{
-    display: flex !important;
-    flex-direction: column !important;
-  }
- */
-
-
-
 *{
     margin:0;
     padding:0;
@@ -93,10 +19,9 @@ a:hover{
     -ms-border-radius: 0!important;
     -o-border-radius: 0!important;
 }
+
 .navbar1{
     display:flex;
-    /*padding-top: 40px;
-    */
     justify-content: space-around;
     align-items: center;
     height:35px;
@@ -129,30 +54,32 @@ a:hover{
         -o-border-radius:0 !important;
 }
 
+
 .nav-links1{
     position: relative;
     left: 130px;
     gap: 20px;
     display: flex;
-justify-content: center;
-list-style: none;
-text-decoration: none;
-width:75%;
-height:0;
-font-size: 18px;
-padding: 20px;
-cursor: pointer;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    width:75%;
+    height:0;
+    font-size: 18px;
+    padding: 20px;
+    cursor: pointer;
+    
 
 }
 #icons{
     font-size: 16px;
     color: yellow;
 }
-.activeclass{
+/* .activeclass{
     color: yellow !important;
     text-decoration: line-through;
-    font-weight: solid;
-}
+    font-weight: 900!important;
+} */
 
 .nav-links2{
     position: relative;
@@ -173,9 +100,10 @@ font-size: 14px;
     color: white;
 }
 
-.active-link{
+/* .active-link{
     color:yellow;
-}
+    font-weight: bold !important
+} */
 
 
 
@@ -204,9 +132,12 @@ font-size: 14px;
 nav ul .active{
     color: yellow !important;
     text-decoration: underline 2px;
+    font-weight: bold;
 
 }
-
+.navbar ul{
+    font-weight: 600;
+}
 .home:visited,
 .product:visited,
 .about:visited,
@@ -224,6 +155,10 @@ nav ul .active{
         display: flex;
         position: absolute;
         left: 15px;
+    }
+    #icons{
+        font-size: 16px;
+        color: white;
     }
     .nav-links{
         display:none;

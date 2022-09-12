@@ -34,7 +34,7 @@ function Footer() {
       </div>
       </div>
       <div className="col mb-md-0 mb-3">
-        <h5 className="text-uppercase">ADDRESS</h5>
+        <h5 className="text-uppercase" id='footeraddressleft'>ADDRESS</h5>
 
         <ul className="list-unstyled">
           <li>
@@ -43,7 +43,7 @@ function Footer() {
         </ul>
       </div>
       <div className="footer-copyright text-center py-3">
-            <h6>Copyright 2020 © Triant Aluminium. All rights reserved.</h6>
+            <h6>Copyright 2022 © Triant Aluminium. All rights reserved.</h6>
             <p id='myname'>Developed by Sathvik K<br/>sathvik902@gmail.com</p>
         </div>
     </div>
