@@ -123,12 +123,12 @@ function main_page() {
                 <hr id='hr'/>
                 <p id ='disc_Future'>Introducing the ground-breaking Thermal-Break Technology, our systems are unmatched in energy efficiency and perhrefmance. Our comprehensive product portfolio consists of high-quality doors, windows, facades, skylights, wall claddings, railings and other architectural products.</p>
                 <br/>
-                
+            
                 <a href='/about'><button type="button" className="btn btn-lg btn-outline-dark btn_coustoms">Learn More</button></a>
             </div>
             <div className="container2 text-center BigContainer">
             <h1 id='futured_products'>FEATURED PRODUCTS</h1>
-            <hr id='futured_hr'/>
+            <hr id='futured_hr1'/>
             
   <div className="row contents_row ">
     <div className="col-md ">
