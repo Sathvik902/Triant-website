@@ -174,7 +174,7 @@ margin-right: 20px;
 
 #ButtonLearnMore{
 position: relative;
-/* left: 10px !important; */
+left:2.5rem !important;
 border-width: 2px !important;
   border-color: black !important;
   font-size: 15px !important;
@@ -529,7 +529,7 @@ background: black;
 
 .padding_p{
   position: relative;
-  left: -8rem !important;
+  left: -13rem !important;
   /* margin: 50px; */
   width: 60rem !important;
   top: -30px !important;
@@ -775,6 +775,7 @@ margin-right: 20px;
   display: grid !important ;
   position: relative;
   padding-left: 7% !important;
+  /* left: -2rem !important;; */
   /* padding-left: 20%!important; */
   /* grid-row: inline; */
   /* width:700% !important; */
@@ -798,7 +799,7 @@ margin-right: 20px;
   color: rgb(255, 255, 0);
   margin-bottom: 5%;
   /* text-align: center; */
-  left: 20rem !important;
+  left: 15rem !important;
   /* margin-bottom: 80px; */
   
 }
@@ -1117,7 +1118,7 @@ html,body{
 
 #our_vision{
   position: relative;
-  left: -20%;
+  left:-18% !important;
   font-size: 20px;
 }
 
@@ -1139,6 +1140,7 @@ html,body{
   padding-left: 12%;
   text-align: center !important;
   width: 62% !important;
+
 }
 
 .main_name p{
@@ -1312,7 +1314,7 @@ top:-350px !important;
 #ButtonLearnMore{
   justify-content: center !important;
   position: relative;
-  left: -8.5rem !important;
+  left: -10.5rem !important;
   border-width: 2px !important;
   border-color: black !important;
   font-size: 15px !important;

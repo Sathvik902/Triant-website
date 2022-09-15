@@ -73,8 +73,14 @@
 
 
 #address_p{
-  letter-spacing: 1px;
-  margin: 20px 0 20px 0 !important;
+  position: relative !important;
+  display:inline-block;
+  /* letter-spacing: 1px; */
+  /* margin: 20px 0 20px 0 !important; */
+  width: 40% !important;
+  left:auto;
+  justify-content: flex-end ;
+  /* top: -10% !important; */
 }
 
 .btn_custom{
@@ -132,7 +138,7 @@
   }
   #footeraddressleft{
     position: relative;
-    left: 4rem;
+    left: 3rem;
   }
 
   .text-uppercase1{
@@ -153,12 +159,16 @@
 
   #address_p{
     position: relative;
-    left: 4rem;
+    display: inline-block;
+    width: 90% !important;
+    left: 2rem;
+
   }
   .text-uppercase{
     /* left: 2% !important; */
     padding-bottom: 2px;
   }
+
 
   #subscribe{
     padding:0 6px 0 6px;

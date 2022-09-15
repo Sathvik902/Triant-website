@@ -52,6 +52,7 @@
         -moz-border-radius:0 !important;
         -ms-border-radius:0 !important;
         -o-border-radius:0 !important;
+        transition-delay:  2s ease;
 }
 
 
@@ -179,6 +180,7 @@ nav ul .active{
         width:100%;
         z-index: 20;
         text-align: center;
+        /* transition-duration: 2s ease-in-out; */
 }
 .nav-links2{
     position: absolute;

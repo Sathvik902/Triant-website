@@ -33,7 +33,7 @@ function Header() {
               <a href='https://www.instagram.com/triantaluminium/'><li className='link'><AiFillInstagram/></li></a>
               <a href='https://www.linkedin.com/company/triantaluminium/'><li className='link'><AiFillLinkedin/></li></a>
               
-                  
+                
           </ul>
           
         </nav>

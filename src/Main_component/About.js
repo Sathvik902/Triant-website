@@ -10,7 +10,6 @@ import { FaPhoneAlt,FaRegEnvelope } from 'react-icons/fa';
 
 
 
-
 function About(){
 
   // const [shadow, setShadow] = useState('shadow-lg p-3 mb-5 bg-white rounded')
