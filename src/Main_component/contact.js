@@ -25,6 +25,7 @@ function ContactUs () {
   };
 
   return (
+
     
 
 
@@ -52,16 +53,16 @@ function ContactUs () {
       <input id='Button' type="submit" value="SEND MESSAGE" />
     </form>
     <div className='row ' id='Containers123'>
-    <div className='col contact_us_p shadow-lg p-3 mb-5 bg-white rounded'>
+          <div className='col contact_us_p  p-3 mb-5 bg-white '>
                   <h1 id='contact_h1'>CONTACT US</h1><br/>
-                  <p id='contact_p'><FaPhoneAlt/>&nbsp;&nbsp;+91 78888-35707</p>
-                  <p id='contact_p'><FaRegEnvelope/>&nbsp;&nbsp;info@triantaluminium.com</p>
+                  <p id='contact_p'><span id='icons1and2'><FaPhoneAlt/></span>&nbsp;&nbsp;+91 78888-35707</p>
+                  <p id='contact_p'><span id='icons1and2'><FaRegEnvelope/></span>&nbsp;&nbsp;info@triantaluminium.com</p>
                   <p id='contact_p'>Level 18, DLF Cyber City, Building No. 5, Tower A, Phase 3, Gurugram - 122002</p>
 
-                </div>
-                <div className='col About_Our_Future_Containers shadow-lg p-3 mb-5 bg-white rounded'>
+          </div>
+          <div className='col About_Our_Future_Containers1  p-3 mb-5 bg-white rounded'>
                 <iframe className='maps' id="gmap_canvas" src="https://maps.google.com/maps?q=Triant%20Aluminium&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                </div>
+          </div>
     </div>
 
         </div>

@@ -31,142 +31,215 @@ function Product() {
         <img src={bgImg} alt='bg-img' className='bgImg'/>
         <div className='container5 shadow-lg p-3 mb-5 bg-white rounded'>
          
-            <div className='row'>
-                <div className='col rows123'>
-                    
-                <a href='../detail/window'><img src={window} className='div_imgs' alt='window'/></a>
-                    <h1 id='products_h1'>CASEMENT WINDOWS</h1>
-                    <br/>
-                    <p>
-                    Casement Windows, Sliding Windows, Awning Windows, Tilt-n-Turn Windows, Fixed Windows.
-                    </p>
+        <div className='row '>
+                <div className='col rows123 '>
+                    <div className='re-innovating'>
+                        <a href='../detail/window'><img src={window} className='div_imgs' alt='window'/></a>
+                    </div>
+                    <div className='re-innovating1'>
+                       <h1 id='main_h12'>CASEMENT WINDOWS</h1>
+                        <p className='paragraph_in_container'>
+                        Thermal-break casement windows which can be opened towards inside or outside.
+                        </p>
+                    </div>
+                
+                
                 </div>
                 <div className='col rows123 '>
-                <a href='../detail/Window'><img src={door} alt='doors' className='div_imgs'/></a>
-                    <h1 id='products_h1'>SLIDING WINDOWS</h1><br/>
-                    <br/>
-                    <p>
-                    Sliding Doors, Casement Doors, Slide-n-Fold Doors
+                <div className='re-innovating'>
+                    <a href='../detail/door'><img src={sliding_doors} alt='doors' className='div_imgs'/></a>
+                </div>
+                <div className='re-innovating1'>
+                <h1 id='main_h12'>SLIDING WINDOWS</h1>
+                    <p className='paragraph_in_container'>
+                    Thermal-break sliding windows with the option of fly-mesh.
                     </p>
+                    </div>
                 </div>
             </div>
-            <div className='row'>
-                <div className='col  rows123'>
-                <a href='../detail/Window'><img src={Awining_doors} className='div_imgs' alt='window'/></a>
-                    <h1 id='products_h1'> AWNING WINDOWS</h1><br/>
-                    <p>
-                    Casement Windows, Sliding Windows, Awning Windows, Tilt-n-Turn Windows, Fixed Windows.
-                    </p>
+            <div className='row '>
+                <div className='col rows123 '>
+                    <div className='re-innovating'>
+                        <a href='../detail/window'><img src={Awining_doors} className='div_imgs' alt='window'/></a>
+                    </div>
+                    <div className='re-innovating1'>
+                        <h1 id='main_h12'>AWNING WINDOWS</h1>
+                        <p className='paragraph_in_container'>
+                        Thermal-break awning windows for ventilations.
+                        </p>
+                    </div>
+                
+                
                 </div>
                 <div className='col rows123 '>
-                <a href='../detail/Window'><img src={double_casement_windows} alt='doors' className='div_imgs'/></a>
-                    <h1 id='products_h1'>DOUBLE CASEMENT WINDOWS</h1><br/>
-                    <p>
-                    Sliding Doors, Casement Doors, Slide-n-Fold Doors
+                <div className='re-innovating'>
+                    <a href='../detail/door'><img src={double_casement_windows} alt='doors' className='div_imgs'/></a>
+                </div>
+                <div className='re-innovating1'>
+                <h1 id='main_h12'>DOUBLE CASEMENT WINDOWS</h1>
+                    <p className='paragraph_in_container'>
+                    Thermal-break double shutter casement windows with fly-mesh and grill.
                     </p>
+                    </div>
                 </div>
             </div>
-            <div className='row'>
+            <div className='row '>
                 <div className='col rows123 '>
-                <a href='../detail/Window'><img src={fixed_windows} className='div_imgs' alt='window'/></a>
-                    <h1 id='products_h1'>FIXED WINDOWS</h1><br/>
-                    <p>
-                    Casement Windows, Sliding Windows, Awning Windows, Tilt-n-Turn Windows, Fixed Windows.
-                    </p>
+                    <div className='re-innovating'>
+                        <a href='../detail/window'><img src={fixed_windows} className='div_imgs' alt='window'/></a>
+                    </div>
+                    <div className='re-innovating1'>
+                        <h1 id='main_h12'>FIXED WINDOWS</h1>
+                        <p className='paragraph_in_container'>
+                        Thermal-break fixed glass windows with the option of mullions and transoms.
+                        </p>
+                    </div>
+                
+                
                 </div>
                 <div className='col rows123 '>
-                <a href='../detail/door'><img src={casement_doors} alt='doors' className='div_imgs'/></a>
-                    <h1 id='products_h1'>CASEMENT DOORS</h1><br/>
-                    <p>
-                    Sliding Doors, Casement Doors, Slide-n-Fold Doors
+                <div className='re-innovating'>
+                    <a href='../detail/door'><img src={casement_doors} alt='doors' className='div_imgs'/></a>
+                </div>
+                <div className='re-innovating1'>
+                <h1 id='main_h12'>CASEMENT DOORS</h1>
+                    <p className='paragraph_in_container'>
+                    Thermal-break casement doors which can be opened towards inside or outside.
                     </p>
+                    </div>
                 </div>
             </div>
-            <div className='row'>
+            <div className='row '>
                 <div className='col rows123 '>
-                <a href='../detail/door'><img src={sliding_doors} className='div_imgs' alt='window'/></a>
-                    <h1 id='products_h1'>SLIDING DOORS</h1><br/>
-                    <p>
-                    Casement Windows, Sliding Windows, Awning Windows, Tilt-n-Turn Windows, Fixed Windows.
-                    </p>
+                    <div className='re-innovating'>
+                        <a href='../detail/window'><img src={door} className='div_imgs' alt='window'/></a>
+                    </div>
+                    <div className='re-innovating1'>
+                        <h1 id='main_h12'>SLIDING DOORS</h1>
+                        <p className='paragraph_in_container'>
+                        Thermal-break sliding doors with the option of fly-mesh.
+                        </p>
+                    </div>
+                
+                
                 </div>
                 <div className='col rows123 '>
-                <a href='../detail/door'><img src={side_n_fold} alt='doors' className='div_imgs'/></a>
-                    <h1 id='products_h1'>SLIDE-N-FOLD DOORS</h1><br/>
-                    <p>
-                    Sliding Doors, Casement Doors, Slide-n-Fold Doors
+                <div className='re-innovating'>
+                    <a href='../detail/door'><img src={side_n_fold} alt='doors' className='div_imgs'/></a>
+                </div>
+                <div className='re-innovating1'>
+                 <h1 id='main_h12'>SLIDE-N-FOLD DOORS</h1>
+                    <p className='paragraph_in_container'>
+                    Slide-n-fold accordion doors with 95% opening.
                     </p>
+                    </div>
                 </div>
             </div>
-            <div className='row'>
+            <div className='row '>
                 <div className='col rows123 '>
-                <a href='../detail/maingate'><img src={sliding_gates} className='div_imgs' alt='window'/></a>
-                    <h1 id='products_h1'>SLIDING GATES</h1><br/>
-                    <p>
-                    Casement Windows, Sliding Windows, Awning Windows, Tilt-n-Turn Windows, Fixed Windows.
-                    </p>
+                    <div className='re-innovating'>
+                        <a href='../detail/window'><img src={sliding_gates} className='div_imgs' alt='window'/></a>
+                    </div>
+                    <div className='re-innovating1'>
+                        <h1 id='main_h12'>SLIDING GATES</h1>
+                        <p className='paragraph_in_container'>
+                        Aluminium sliding main gates with the option of automation.
+                        </p>
+                    </div>
+                
+                
                 </div>
                 <div className='col rows123 '>
-                <a href='../detail/maingate'><img src={swing_gates} alt='doors' className='div_imgs'/></a>
-                    <h1 id='products_h1'>SWING GATES</h1><br/>
-                    <p>
-                    Sliding Doors, Casement Doors, Slide-n-Fold Doors
+                <div className='re-innovating'>
+                    <a href='../detail/door'><img src={swing_gates} alt='doors' className='div_imgs'/></a>
+                </div>
+                <div className='re-innovating1'>
+                <h1 id='main_h12'>SWING GATES</h1>
+                    <p className='paragraph_in_container'>
+                    Aluminium swing main gates with the option of automation.
                     </p>
+                    </div>
                 </div>
             </div>
-            <div className='row'>
-                <div className='col  rows123'>
-                <a href='../detail/maingate'><img src={wall_cladding} className='div_imgs' alt='window'/></a>
-                    <h1 id='products_h1'>WALL CLADDING</h1><br/>
-                    <p>
-                    Casement Windows, Sliding Windows, Awning Windows, Tilt-n-Turn Windows, Fixed Windows.
-                    </p>
+            <div className='row '>
+                <div className='col rows123 '>
+                    <div className='re-innovating'>
+                        <a href='../detail/window'><img src={wall_cladding} className='div_imgs' alt='window'/></a>
+                    </div>
+                    <div className='re-innovating1'>
+                        <h1 id='main_h12'>WALL CLADDING</h1>
+                        <p className='paragraph_in_container'>
+                        Aluminium wall claddings with varying designs and combinations to complement main gates.
+
+
+                        </p>
+                    </div>
+                
+                
                 </div>
                 <div className='col rows123 '>
-                <a href='../detail/maingate'><img src={curtain} alt='doors' className='div_imgs'/></a>
-                    <h1 id='products_h1'>CURTAIN WALLS</h1><br/>
-                    <p>
-                    Sliding Doors, Casement Doors, Slide-n-Fold Doors
+                <div className='re-innovating'>
+                    <a href='../detail/door'><img src={curtain} alt='doors' className='div_imgs'/></a>
+                </div>
+                <div className='re-innovating1'>
+                <h1 id='main_h12'>CURTAIN WALLS</h1>
+                    <p className='paragraph_in_container'>
+                    Stick curtain walls, unitized and semi-unitized curtain walls.
                     </p>
+                    </div>
                 </div>
             </div>
-            <div className='row'>
+            <div className='row '>
                 <div className='col rows123 '>
-                <a href='/product'><img src={louvers} alt='doors' className='div_imgs'/></a>
-                {/* <img src={louvers} className='div_imgs' alt='window'/> */}
-                    <h1 id='products_h1'>LOUVERS</h1><br/>
-                    <p>
-                    Casement Windows, Sliding Windows, Awning Windows, Tilt-n-Turn Windows, Fixed Windows.
-                    </p>
+                    <div className='re-innovating'>
+                        <a href='../detail/window'><img src={louvers} className='div_imgs' alt='window'/></a>
+                    </div>
+                    <div className='re-innovating1'>
+                        <h1 id='main_h12'>LOUVERS</h1>
+                        <p className='paragraph_in_container'>
+                        Elliptical, rectangular, circular and other types of louvers for the elevation.
+                        </p>
+                    </div>
+                
+                
                 </div>
-                <div className='col  rows123'>
-                <a href='/product'><img src={railings} alt='doors' className='div_imgs'/></a>
-                {/* <img src={railings} alt='doors' className='div_imgs'/> */}
-                    <h1 id='products_h1'>RAILINGS</h1><br/>
-                    <p>
-                    Sliding Doors, Casement Doors, Slide-n-Fold Doors
+                <div className='col rows123 '>
+                <div className='re-innovating'>
+                    <a href='../detail/door'><img src={railings} alt='doors' className='div_imgs'/></a>
+                </div>
+                <div className='re-innovating1'>
+                <h1 id='main_h12'>RAILINGS</h1>
+                    <p className='paragraph_in_container'>
+                    Aluminium railing systems for indoor and outdoor use.​
                     </p>
+                    </div>
                 </div>
             </div>
-            <div className='row'>
+            <div className='row '>
                 <div className='col rows123 '>
-                <a href='/product'><img src={cielings} alt='doors' className='div_imgs'/></a>
-                {/* <img src={cielings} alt='curtain_walls'className='div_imgs'/> */}
-                <h1 id='products_h1'>CEILINGS</h1><br/>
-                <p>
-                Stick Curtain Walls, Semi-unitized Curtain Walls, Unitized Curtain Walls
-                </p>
+                    <div className='re-innovating'>
+                        <a href='../detail/window'><img src={cielings} className='div_imgs' alt='window'/></a>
+                    </div>
+                    <div className='re-innovating1'>
+                        <h1 id='main_h12'>CEILINGS</h1>
+                        <p className='paragraph_in_container'>
+                        Aluminium rectangular and circular ceilings with quick and easy installation.
+                        </p>
+                    </div>
+                
+                
                 </div>
                 <div className='col rows123 '>
-                <a href='/product'><img src={skylight} alt='doors' className='div_imgs'/></a>
-                {/* <img src={skylight} alt='gates'className='div_imgs'/> */}
-                <h1 id='products_h1'>SKYLIGHTS</h1><br/>
-                <p>
-                Aluminium Sliding and Casement Gates
-                </p>
+                <div className='re-innovating'>
+                    <a href='../detail/door'><img src={skylight} alt='doors' className='div_imgs'/></a>
                 </div>
-                {/* <br/>
-                <button type="button" class="btn btn-secondary btn-lg">VIEW PRODUCTS</button> */}
+                <div className='re-innovating1'>
+                <h1 id='main_h12'>SKYLIGHTS</h1>
+                    <p className='paragraph_in_container'>
+                    Aluminium skylights customized according to requirement.
+                    </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

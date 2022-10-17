@@ -32,41 +32,65 @@ function main_page() {
         <div className=' container1 shadow-lg p-3 mb-5 bg-white rounded'> 
             <div className='row '>
                 <div className='col rows123 '>
-                <a href='../detail/window'><img src={window} className='div_imgs' alt='window'/></a>
-                <a href='../detail/window'><h1 id='main_h1'>WINDOWS</h1></a>
-                    <p className='paragraph_in_container'>
-                    Casement Windows, Sliding Windows, Awning Windows, Tilt-n-Turn Windows, Fixed Windows.
-                    </p>
+                    <div className='re-innovating'>
+                        <a href='../detail/window'><img src={window} className='div_imgs' alt='window'/></a>
+                    </div>
+                    <div className='re-innovating1'>
+                        <a href='../detail/window'><h1 id='main_h1'>WINDOWS</h1></a>
+                        <p className='paragraph_in_container'>
+                        Casement Windows, Sliding Windows, Awning Windows, Tilt-n-Turn Windows, Fixed Windows.
+                        </p>
+                    </div>
+                
+                
+                
                 </div>
                 <div className='col rows123 '>
-                <a href='../detail/door'><img src={door} alt='doors' className='div_imgs'/></a>
+                <div className='re-innovating'>
+                    <a href='../detail/door'><img src={door} alt='doors' className='div_imgs'/></a>
+                </div>
+                <div className='re-innovating1'>
                 <a href='../detail/door'> <h1 id='main_h1'>DOORS</h1></a>
                     <p className='paragraph_in_container'>
                     Sliding Doors, Casement Doors, Slide-n-Fold Doors
                     </p>
+                    </div>
                 </div>
             </div>
             <div className='row'>
                 <div className='col rows123 '>
-                <a href='/'> <img src={curtain} alt='curtain_walls'className='div_imgs'/></a>
-                <h1 id='main_h1'>CURTAIN WALLS</h1>
-                <p className='paragraph_in_container'>
-                Stick Curtain Walls, Semi-unitized Curtain Walls, Unitized Curtain Walls
-                </p>
+                <div className='re-innovating'>
+                    <a href='/'> <img src={curtain} alt='curtain_walls'className='div_imgs'/></a>
+                </div>
+                <div className='re-innovating1'>
+                    <a href='../detail/maingate'><h1 id='main_h12'>CURTAIN WALLS</h1></a>
+                    <p className='paragraph_in_container'>
+                    Stick Curtain Walls, Semi-unitized Curtain Walls, Unitized Curtain Walls
+                    </p>
+                </div>
                 </div>
                 <div className='col rows123 '>
-                <a href='../detail/maingate'><img src={gates} alt='gates'className='div_imgs'/></a>
-                <a href='../detail/maingate'><h1 id='main_h1'>GATES</h1></a>
-                <p className='paragraph_in_container'>
-                Aluminium Sliding and Casement Gates
-                </p>
+                <div className='re-innovating'>
+                    <a href='../detail/maingate'><img src={gates} alt='gates'className='div_imgs'/></a>
+                </div>
+                <div className='re-innovating1'>
+                    <a href='../detail/maingate'><h1 id='main_h1'>GATES</h1></a>
+                    <p className='paragraph_in_container'>
+                    Aluminium Sliding and Casement Gates
+                    </p>
+                </div>
                 </div>
             </div>
             <div className='row '>
             <div className='col-md-12'>
-                <br/>
-                <br/>
+                
             <a href={'/product'}><button type="button" className="btn btn-lg btn-outline-dark btn_coustom">VIEW ALL PRODUCTS</button></a>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
             <br/>
             <br/>
             </div>
