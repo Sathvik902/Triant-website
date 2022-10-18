@@ -208,7 +208,7 @@ function main_page() {
         <hr id='futured_hr'/>
         <div className='padding_p'>
         <p  className='paragraph_in_container1'>We intend to work collaboratively with architects, builders and end consumers to create spaces with better functionality and design aesthetics, while providing the best solution at a cost-effective price.</p>
-        </div>
+        </div> 
         <br/>
         <br/>
         <a href='/about'><button type="button" id='ButtonLearnMore' className="btn btn-lg btn-outline-dark">LEARN MORE</button></a>

@@ -163,10 +163,10 @@ margin-right: 5.6rem;
 .paragraph_in_container1{
   width: 100% !important;
     /* display: inline !important; */
-    text-align: left ;
-position: relative;
+    text-align: center !important;
+position: relative !important;
 margin-top: 0px;
-/* left: 18% !important; */
+left: 18% !important;
 text-align: center;
 width: 70%;
 margin-left:2.6rem;
@@ -223,7 +223,7 @@ border-width: 2px !important;
   -ms-border-radius: 0 !important;
   -o-border-radius: 0 !important;
   width: 20%;
-  top: -8rem;
+  top: -4rem;
 }
 
 #ButtonLearnMore:hover{
@@ -1213,10 +1213,11 @@ html,body{
   height: 200% !important;
 }
 .paragraph_in_container1{
-  padding-left: 12%;
+  padding-left: 15%;
   text-align: center !important;
   width: 62% !important;
   top: -430%;
+  right: 4rem !important;
 
 }
 

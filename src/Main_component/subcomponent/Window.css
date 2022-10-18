@@ -22,21 +22,29 @@
     height:400px;
 }
 .bgImg12{
-    height:40%;
+    
+    height:30% !important;
+    z-index: -100 !important;
 }
+
+
 
 .row1{
     position: relative !important;
     padding-top: 30% !important;
     left:4%;
+    
     width: 95%;
+    top: -15rem !important;
+    z-index: 100 !important;
+    
 }
 
 
 .col{
     position: relative;
     padding-top: 3%;
-    left: -6% !important;;
+    left: -6% !important;
 }
 .discription{
     height:40%;

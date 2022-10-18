@@ -26,11 +26,8 @@ function windows() {
         <h1>WINDOWS</h1>
       </div>
        <img src={bgImg} alt='bg-img' className='bgImg'/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-       <div className='row row1 shadow-lg p-3 mb-5 bg-white rounded'>
+       
+       <div  className='row row1 shadow-lg p-0 mb-5 bg-white rounded'>
         <div className='col'>
                           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"data-interval="3000">
                   <div class="carousel-inner">
