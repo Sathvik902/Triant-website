@@ -1,7 +1,8 @@
-import React from 'react'
+import React,{ useState }from 'react'
 import './Window.css'
 import bgImg from '../Images/triant-aluminium-doors.jpg'
 
+import Carousel from 'react-bootstrap/Carousel';
 import slider1_img1 from '../Images/TG50M-1.jpg'
 import slider1_img2 from '../Images/TG50M-2.jpg'
 // "C:\Users\Sathvik K\OneDrive\Desktop\Triant_website1\src\Images\TG50M-1.jpg"
@@ -15,7 +16,16 @@ import slider2_img3 from '../Images/TM160-1.jpg'
 import slider3_img1 from '../Images/ZD81-4.jpg'
 import slider3_img2 from '../Images/ZD81-1.jpg'
 
-function maingates() {
+function Maingates() {
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
+  const [index1, setIndex1] = useState(0);
+  const handleSelect2 = (selectedIndex, e) => {
+    setIndex1(selectedIndex);
+  };
   return (
     <div>
       <div className='main_name'>
@@ -27,17 +37,27 @@ function maingates() {
        <br/>
        <br/>
        <div className='row row1 shadow-lg p-3 mb-5 bg-white rounded'>
-        <div className='col sliding'>
-                          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"data-interval="3000">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img class="d-block w-100" src={slider1_img1} alt="First slide"/>
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src={slider1_img2} alt="Second slide"/>
-                      </div>
-                    </div>
-              </div>
+        <div className='col '>
+        <Carousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={slider1_img1}
+          alt="First slide"
+        />
+        
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={slider1_img2}
+          alt="Second slide"
+        />
+
+        
+      </Carousel.Item>
+      
+    </Carousel>
         </div>
         <div className='col discription'>
           <h1>CASEMENT DOORS</h1>
@@ -47,19 +67,35 @@ function maingates() {
        </div>
        <div className='row row1 shadow-lg p-3 mb-5 bg-white rounded'>
        <div className='col sliding'>
-                          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"data-interval="3000">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img class="d-block w-100" src={slider2_img1} alt="First slide"/>
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src={slider2_img2} alt="Second slide"/>
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src={slider2_img3} alt="Second slide"/>
-                      </div>
-                    </div>
-              </div>
+       <Carousel activeIndex={index1} onSelect={handleSelect2}>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={slider2_img1}
+          alt="First slide"
+        />
+        
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={slider2_img2}
+          alt="Second slide"
+        />
+
+        
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={slider2_img3}
+          alt="Second slide"
+        />
+
+        
+      </Carousel.Item>
+      
+    </Carousel>
         </div>
        <div className='col discription'>
           <h1>SLIDING DOORS</h1>
@@ -92,4 +128,4 @@ function maingates() {
   )
 }
 
-export default maingates
+export default Maingates
